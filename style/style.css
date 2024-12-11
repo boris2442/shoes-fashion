@@ -63,7 +63,7 @@ header{
    gap:30px;
 }
 .title h2{
-    font-family: 'Parisienne';
+    font-family: 'Parkinsans';
     font-weight: 500;
 }
 header .title i{
@@ -73,12 +73,13 @@ header .title i{
 }
 .user{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 30px;
+    gap: 50px;
 }
 .user i{
     color:var(--color1);
+    cursor: pointer;
     font-size: 1.5rem;
 }
 header ul{
@@ -264,4 +265,8 @@ width: 400px;
     color:var(--color2);
     border-radius: 13px 0px 0px 0;
     right: 0px;
+}
+.arrivage-container .arrivage-box h4, .arrivage-container .arrivage-box h6{
+    padding-left: 10px;
+    
 }
