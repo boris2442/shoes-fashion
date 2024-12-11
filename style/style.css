@@ -272,6 +272,10 @@ width: 400px;
 }
 
 /* partie destinee a la newsletter */
+
+#newsletter h2{
+    padding-bottom: 30px;
+}
 form{
     
    /* display: inline-block; */
@@ -295,4 +299,26 @@ margin-right: 20px;
     margin:  auto;
     margin-bottom: 20px;
     
+}
+
+/* partie reservee au footer */
+
+.container-footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container-footer .icons{
+    gap: 20px;
+    display: flex;
+}
+.container-footer .icons i{
+background-color: var(--color1);
+padding: 10px;
+width: 40px;
+height: 40px;
+align-items: center;
+justify-content: center;
+color:var(--color2);
+border-radius: 50%;
 }
