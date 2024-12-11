@@ -12,7 +12,7 @@
 }
 section{
     padding: 60px 10px;
-    height: 100vh;
+    /* height: 100vh; */
 }
 #btn{
     background-color: var(--color1);
@@ -20,7 +20,7 @@ section{
     padding: 10px;
     cursor: pointer;
     margin-top: 20px;
-    transition:  background 0.8s ease-in-out;
+    transition: 0.8s ease-in-out;
     font-size: 1.3rem;
     border-radius: 7px;
 }
@@ -46,8 +46,11 @@ body{
 /* partie destinee au header */
 
 header{
-    padding-top: 40px 30px 50px 30px;
+    padding-top: 40px 30px 10px 30px;
     display: grid;
+    top: 0;
+    z-index: 100;
+    position: sticky;
     height: 12vh;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
@@ -101,14 +104,14 @@ header ul li a:hover{
 
 
 #first-section{
-    height: 100vh;
+    /* height: 100vh; */
     justify-content: center;
     align-items: center;
 }
 
 .welcome-container{
     display: grid;
-   padding: 30px;
+   padding: 10px;
    justify-content: center;
     align-items: center;
 margin: 0 auto;
@@ -124,7 +127,8 @@ margin: 0 auto;
     transform: rotateY(180deg);
 }
 .welcome-container .welcome-box h1{
-    font-size: clamp(25px, 10vw, 50px);
+    font-size: clamp(25px, 8vw, 40px);
+    text-align: center;
 }
 .welcome-container .welcome-box p{
     text-align: justify;
@@ -136,44 +140,30 @@ margin: 0 auto;
    
 
     justify-content: center;
+    padding: 20px;
     align-items: center;
-    height: 100vh;
+    
 }
 #one h2{
     text-align: center;
-    padding: 30px;
-    padding-bottom: 40px;
-    text-transform: uppercase;
-    font-size: 2.3rem;
+    font-family:'Parkinsans';
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 .container-one{
     display: flex;
-    height: 50vh;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-    padding: 0 30px;
-    gap: 30px;
-    
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:10px;
 }
-  .container-one .box-one{  
-     display: flex;
-     gap:10px;
-     padding: 10px;
-     background-color: rgba(143, 143, 234, 0.442);
-}
+
 #one  img{
-    width: 100%;
+    /* width: 400px; */
+    width: 300px;
     border-radius: 7px;
-    height: 200px;
+    height: 300px;
 }
-.box-one h4{
-    font-size: 1.5rem;
-    color:var(--color2);
-}
-.box-one p{
-    color:var(--color2);
-    font-size: 1.3rem;
+#one  img:nth-child(4){
+    background-color: blue;
 }
