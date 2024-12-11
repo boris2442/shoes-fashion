@@ -37,6 +37,7 @@ section{
     --color3:black;
     --color4:rgb(41, 150, 194);
     --color5:orange;
+    --color6:red;
 }
 
 body{
@@ -188,12 +189,38 @@ margin: 0 auto;
     padding: 10px;
     flex-wrap: wrap;
   gap:10px;
+  row-gap: 20px;
     justify-content: space-around;
 }
+.boutique-container .boutique-box {
+border-radius: 7px;
+padding: 10px;
+position: relative;
+    border: 1px solid var(--color1);
+}
+
+
 .boutique-container .boutique-box  img{
-    /* width: 400px; */
+  
     width: 300px;
     transition: 1s ease-in-out;
     border-radius: 7px;
     height: 300px;
+}
+.boutique-container .boutique-box i {
+    font-size: 1.6rem;
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+    background-color: var(--color1);
+    color:var(--color2);
+    border-radius: 13px 0px 0px 0;
+    right: 0px;
+}
+.boutique-container .boutique-box h4{
+    font-size: 1.25rem;
+}
+.boutique-container .boutique-box h6{
+   color:var(--color6);
+   font-size: 1rem;
 }
