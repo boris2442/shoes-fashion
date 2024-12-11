@@ -112,10 +112,13 @@ margin: 0 auto;
     gap:30px;
 }
 .welcome-box img{
-    box-shadow: 0px 1px 5px var(--color3);
+    /* box-shadow: 0px 1px 5px var(--color3); */
+    transition: 1s ease-in-out;
     border-radius: 4rem 0  4rem 0;
 }
-
+.welcome-box img:hover{
+    transform: rotateY(180deg);
+}
 .welcome-container .welcome-box h1{
     font-size: clamp(25px, 10vw, 50px);
 }
