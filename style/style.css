@@ -273,9 +273,26 @@ width: 400px;
 
 /* partie destinee a la newsletter */
 form{
-    box-shadow: 0px 2px 1px var(--color3);
+    
+   /* display: inline-block; */
+    margin: auto;
+    border-radius: 7px;
+    width: 60%;
+    /* gap:20px; */
+    border: 0.5px solid var(--color4);
+    text-align: center;
+    display: flex;
 
 }
 form input{
     padding: 10px;
+margin-right: 20px;
+    border: 1px solid var(--color3);
+    border-radius: 7px;
+    font-size: 1.1rem;
+}
+.contact{
+    margin:  auto;
+    margin-bottom: 20px;
+    
 }
