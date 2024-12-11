@@ -125,3 +125,25 @@ margin: 0 auto;
 .welcome-container .welcome-box p{
     text-align: justify;
 }
+
+/* partie destinee a la section a la une */
+
+#one{
+    padding: 0 40px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container-one{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+#one  img{
+    width: 300px;
+    border-radius: 7px;
+    height: 200px;
+}
+.box-one h4{
+    font-size: 1.6rem;
+}
