@@ -29,7 +29,9 @@ section{
     
     
 }
+
 /* initialisation des couleurs */
+
 :root{
     --color1:blue;
     --color2:#fff;
@@ -42,6 +44,7 @@ section{
 body{
     overflow-x: hidden;
 }
+
 
 /* partie destinee au header */
 
@@ -105,7 +108,7 @@ header ul li a:hover{
 
 
 #first-section{
-    /* height: 100vh; */
+   /* min-height: 100vh; */
     justify-content: center;
     align-items: center;
 }
@@ -120,7 +123,7 @@ margin: 0 auto;
     gap:30px;
 }
 .welcome-box img{
-    /* box-shadow: 0px 1px 5px var(--color3); */
+   
     transition: 1s ease-in-out;
     border-radius: 4rem 0  4rem 0;
     animation:animation 1.9s linear infinite;
@@ -130,9 +133,7 @@ margin: 0 auto;
         transform: translateY(40px);
     }
 }
-/* .welcome-box img:hover{
-    transform: rotateY(180deg);
-} */
+
 .welcome-container .welcome-box h1{
     font-size: clamp(25px, 8vw, 40px);
     text-align: center;
@@ -166,7 +167,7 @@ margin: 0 auto;
 }
 
 #one  img{
-    /* width: 400px; */
+    
     width: 300px;
     transition: 1s ease-in-out;
     border-radius: 7px;
@@ -243,7 +244,7 @@ box-shadow: 0px 0px 7px var(--color1);
 }
 .arrivage-container .arrivage-box{
 position: relative;
-/* box-shadow: 0px 0px 10px 0px var(--color1); */
+
 border: 1px solid var(--color1);
 
 border-radius: 7px;
@@ -278,7 +279,7 @@ width: 400px;
 }
 form{
     
-   /* display: inline-block; */
+
     margin: auto;
     border-radius: 7px;
     width: 60%;
@@ -350,3 +351,13 @@ border-radius: 50%;
    justify-content: center;
 
 } 
+
+/* responsive */
+
+@media screen and (max-width:940px) {
+    .welcome-container{
+        display: flex;
+        flex-direction: column;
+    }
+  
+}
