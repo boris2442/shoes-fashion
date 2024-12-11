@@ -129,9 +129,9 @@ margin: 0 auto;
         transform: translateY(40px);
     }
 }
-.welcome-box img:hover{
+/* .welcome-box img:hover{
     transform: rotateY(180deg);
-}
+} */
 .welcome-container .welcome-box h1{
     font-size: clamp(25px, 8vw, 40px);
     text-align: center;
