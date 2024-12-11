@@ -283,7 +283,7 @@ form{
     margin: auto;
     border-radius: 7px;
     width: 60%;
-    /* gap:20px; */
+
     border: 0.5px solid var(--color4);
     text-align: center;
     display: flex;
@@ -328,7 +328,7 @@ form input:focus, form input:hover {
     gap: 20px;
     display: flex;
 }
-.container-footer .icons i, .container-footer p i{
+.container-footer .icons i, .container-footer p i, footer i{
 background-color: var(--color1);
 padding: 10px;
 width: 40px;
@@ -340,7 +340,7 @@ transition: 1s ease-in-out;
 color:var(--color2);
 border-radius: 50%;
 }
-.container-footer .icons i:hover,  .container-footer p i:hover{
+.container-footer .icons i:hover,   .container-footer p i:hover , footer i:hover{
     background-color: var(--color2);
     color:var(--color1);
 }
