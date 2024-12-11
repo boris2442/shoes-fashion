@@ -38,6 +38,9 @@ section{
     --color5:orange;
 }
 
+body{
+    overflow-x: hidden;
+}
 
 /* partie destinee au header */
 
@@ -129,7 +132,8 @@ margin: 0 auto;
 /* partie destinee a la section a la une */
 
 #one{
-    padding: 0 40px;
+   
+
     justify-content: center;
     align-items: center;
     height: 100vh;
