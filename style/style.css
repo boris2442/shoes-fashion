@@ -150,7 +150,7 @@ margin: 0 auto;
     align-items: center;
     
 }
-#one h2{
+ h2{
     text-align: center;
     font-family:'Parkinsans';
     font-weight: 700;
@@ -176,4 +176,24 @@ margin: 0 auto;
 }
 #one  img:nth-child(4){
     background-color: blue;
+}
+
+
+/* partie reserve a la section boutique */
+
+
+
+.boutique-container{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+  gap:10px;
+    justify-content: space-around;
+}
+.boutique-container .boutique-box  img{
+    /* width: 400px; */
+    width: 300px;
+    transition: 1s ease-in-out;
+    border-radius: 7px;
+    height: 300px;
 }
