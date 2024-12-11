@@ -12,6 +12,7 @@
 }
 section{
     padding: 60px 10px;
+    height: 100vh;
 }
 #btn{
     background-color: var(--color1);
@@ -141,23 +142,38 @@ margin: 0 auto;
 #one h2{
     text-align: center;
     padding: 30px;
+    padding-bottom: 40px;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 2.3rem;
 }
 .container-one{
     display: flex;
-    gap: 30px;
+    height: 50vh;
     margin: auto;
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    padding: 0 30px;
+    gap: 30px;
+    
+}
+  .container-one .box-one{  
+     display: flex;
+     gap:10px;
+     padding: 10px;
+     background-color: rgba(143, 143, 234, 0.442);
 }
 #one  img{
-    width: 300px;
+    width: 100%;
     border-radius: 7px;
     height: 200px;
 }
 .box-one h4{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+    color:var(--color2);
 }
 .box-one p{
-    text-align: justify;
+    color:var(--color2);
+    font-size: 1.3rem;
 }
