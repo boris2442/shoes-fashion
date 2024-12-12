@@ -12,6 +12,9 @@
 }
 section{
     padding: 60px 10px;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
 }
 #btn{
     background-color: var(--color1);
@@ -49,13 +52,15 @@ body{
 /* partie destinee au header */
 
 header{
-    padding-top: 40px 30px 10px 30px;
+    /* padding-top: 40px 30px 10px 30px; */
     display: grid;
     top: 0;
+    width: 100%;
+    position: relative;
     z-index: 100;
     position: sticky;
     height: 12vh;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     align-items: center;
     box-shadow: 0px 1px 8px var(--color3);
 }
@@ -76,7 +81,7 @@ header .title i{
 }
 .user{
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     align-items: center;
     gap: 50px;
 }
@@ -102,7 +107,12 @@ header ul li a:hover{
     border-radius: 7px;
 
 }
-
+header nav ul li a.active{
+    color:red;
+}
+.menu{
+    display: none;
+}
 
 /* partie destinee a la premiere section */
 
@@ -321,6 +331,19 @@ form input:focus, form input:hover {
 .container-footer .box-footer h3{
     color:var(--color1);
 }
+.container-footer .box-footer h3:nth-child(1){
+    color:red;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+}
+.child-bix-icon{
+    display: flex;
+    gap:20px;
+    padding: 20px 0;
+}
+.child-bix-icon h3{
+   font-size:1.7rem;
+}
 .container-footer p {
     font-weight: 600;
 }
@@ -351,7 +374,28 @@ border-radius: 50%;
    justify-content: center;
 
 } 
-
+.child4 {
+  flex-direction: column;
+position: relative;
+line-height: 50px;
+  display: flex;
+}
+.child4 .phone{
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+.child4 .mail{
+    position: absolute;
+    left: 0;
+}
+ .copy p{
+    text-align: center;
+    font-family: 'Parkinsans';
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 30px;
+}
 /* responsive */
 
 @media screen and (max-width:940px) {
@@ -361,3 +405,42 @@ border-radius: 50%;
     }
   
 }
+@media screen and (max-width:710px) {
+    input{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:690px) {
+.boutique-container{
+    flex-direction: column;
+}
+.title i{
+    padding-left: 15px;
+}
+.boutique-box img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+}
+@media screen and (max-width:630px) {
+    #section img{
+        width: 100%;
+    }
+    
+}
+@media screen and ( max-width:840px) {
+    header ul{
+        display: none;
+    }
+    .menu{
+        display: block;
+        padding-right: 20px;
+        cursor: pointer;
+    }
+}
+    
+

@@ -1,0 +1,21 @@
+
+/* code a inserer dans le javascript */
+
+.navigation{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color:var(--color1);
+    right: 10px;
+    top: 150%;
+    position: absolute;
+}
+.navigation2{
+    display: flex;
+    flex-direction: column;
+    right: -100%;
+    position: absolute;
+}
+.navig{
+    color:var(--color1);
+}
