@@ -1,6 +1,6 @@
 const header=document.querySelector("header");
 const links=document.querySelectorAll("header ul li a");
-// const list=document.querySelector(".ordonerlist")
+
 const icons=document.querySelectorAll("header i");
 const icons2=document.querySelector(".title i");
 const title=document.querySelector("header h2");
