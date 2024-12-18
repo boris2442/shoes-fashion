@@ -5,6 +5,7 @@ const icons=document.querySelectorAll("header i");
 const icons2=document.querySelector(".title i");
 const title=document.querySelector("header h2");
 const burger=document.querySelector(".menu");
+const title2=document.querySelector("header ul")
 window.addEventListener("scroll", ()=>{
    if(window.scrollY>250){
     header.style.background='var(--color1)'
@@ -33,10 +34,10 @@ icon.style.color='var(--color2)'
 })
 
 burger.addEventListener("click", () =>{
-    // if(window.scrollY>100){
-        list.classList.toggle("navigation")
-        
-        links.classList.add("navig")
-    // }
+  
+title2.classList.toggle("navigation")
+      
+       
+  
 })
 
