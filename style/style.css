@@ -33,7 +33,7 @@ section{
     
 }
 
-/* initialisation des couleurs */
+/* ##########initialisation des couleurs########## */
 
 :root{
     --color1:blue;
@@ -49,10 +49,10 @@ body{
 }
 
 
-/* partie destinee au header */
+/* ###########partie destinee au header############ */
 
 header{
-    /* padding-top: 40px 30px 10px 30px; */
+ 
     display: grid;
     top: 0;
     width: 100%;
