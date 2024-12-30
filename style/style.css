@@ -1,4 +1,4 @@
-/* initialisation  */
+/* initialisation du code css  */
 
 *{
     padding: 0;
@@ -58,6 +58,7 @@ header{
     width: 100%;
     position: relative;
     z-index: 100;
+    background: var(--color2);
     position: sticky;
     height: 12vh;
     grid-template-columns: 1fr 2fr 1fr;
@@ -71,7 +72,7 @@ header{
    gap:30px;
 }
 .title h2{
-    font-family: 'Parkinsans';
+    font-family: 'Parkinsans' Arial, Helvetica, sans-serif;
     font-weight: 500;
 }
 header .title i{
@@ -116,7 +117,9 @@ header nav ul li a.active{
     display: none;
 }
 
-/* partie destinee a la premiere section */
+/* ##############
+                      partie destinee a la premiere section
+                                                        ######################## */
 
 
 #first-section{
