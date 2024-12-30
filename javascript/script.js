@@ -50,4 +50,21 @@ const sr=ScrollReveal({
     duration:1500,
     reset:true
 })
-const reveal=(".copy, .first-section, .one, .boutique, .arrivage, .newsletter, .footer-text")
+const reveal=(".copy, .first-section, .one, .boutique, .arrivage, .newsletter, .footer-text", {interval:200})
+
+// partie destinee au typewriter
+
+const titleh1=document.querySelector("h1")
+
+const app=new Typewriter(titleh1, {
+    loop:true,
+    delay:200
+})
+
+.typeString("style & confort")
+.pauseFor(2000)
+.deleteAll()
+.pauseFor(2000)
+.start();
+
+
