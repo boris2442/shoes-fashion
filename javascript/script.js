@@ -43,14 +43,14 @@ title2.classList.toggle("navigation")
 
 // partie scroll reveal
 
-const sr=ScrollReveal({
+const sr = ScrollReveal({
     origin:"top",
     diatance:"30px",
 
-    duration:1500,
+    duration:2000,
     reset:true
 })
-const reveal=(".copy, .first-section, .one, .boutique, .arrivage, .newsletter, .footer-text", {interval:200})
+const reveal = (".copy, .first-section, .one, .boutique, .arrivage, .newsletter, .footer-text", {interval:200})
 
 // partie destinee au typewriter
 
