@@ -51,6 +51,12 @@ body{
 
 /* ###########partie destinee au header############ */
 
+img{
+    transition: 0.5s ease-in-out;
+}
+img:hover{
+    filter: grayscale(100%);
+}
 header{
  
     display: grid;
