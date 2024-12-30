@@ -41,3 +41,13 @@ title2.classList.toggle("navigation")
   
 })
 
+// partie scroll reveal
+
+const sr=ScrollReveal({
+    origin:"top",
+    diatance:"30px",
+
+    duration:1500,
+    reset:true
+})
+const reveal=(".copy, .first-section, .one, .boutique, .arrivage, .newsletter, .footer-text")
