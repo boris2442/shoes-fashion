@@ -92,7 +92,8 @@ header .title i{
 }
 header ul{
     display: flex;
-    transition : 0.5s ease-in-out
+    gap:30px;
+    transition : 0.5s ease-in-out;
     justify-content: space-between;
 }
 header ul li a{
