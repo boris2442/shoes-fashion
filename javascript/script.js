@@ -35,12 +35,17 @@ icon.style.color='var(--color2)'
 
 burger.addEventListener("click", () =>{
   
-title2.classList.toggle("navigation")
+title2.classList.toggle("active")
       
        
   
 })
 
+
+window.addEventListener("scroll", ()=>{
+    title2.classList.add("active2")
+    title2.classList.remove("active")
+})
 // partie scroll reveal
 
 const sr=ScrollReveal({

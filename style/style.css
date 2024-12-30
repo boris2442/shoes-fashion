@@ -436,7 +436,28 @@ line-height: 50px;
 }
 @media screen and ( max-width:840px) {
     header ul{
-        display: none;
+        display: flex;
+        flex-direction: column;
+        position:absolute;
+        left: -100%;
+        border-bottom-right-radius: 99px;
+        text-align: center;
+        width: 350px;
+        padding: 20px;
+        height: 400px;
+        top: 12vh;
+        background-color: var(--color1);
+        transition: 0.8s ease-in-out;
+    }
+    .active{
+        position: absolute;
+        left: 0;
+        transition: .8s ease-in-out;
+    }
+    .active2{
+        position: absolute;
+        left: -100%;
+        transition: .8s ease-in-out; 
     }
     .menu{
         display: block;
@@ -444,6 +465,7 @@ line-height: 50px;
         cursor: pointer;
         
     }
+    
 }
     
 
