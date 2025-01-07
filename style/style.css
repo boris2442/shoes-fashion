@@ -106,7 +106,7 @@ header ul{
 header ul li a{
     font-size: 1.3rem;
     transition: 0.5s ease-in-out;
-    color:var(--color4);
+    color:var(--color3);
     font-weight: 500;
 }
 header ul li a:hover{
