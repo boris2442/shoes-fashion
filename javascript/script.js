@@ -72,3 +72,23 @@ const app=new Typewriter(titleh1, {
 .start();
 
 
+const sections=document.querySelectorAll("section");
+
+const scrollActive=()=>{
+    sections.forEach(section=>{
+        let height=section.offsetHeight;
+        let top=section.offsetTop;
+        let id=section.getAttribute("id");
+        let scrolls=window.scrollY;
+        if(scrolls>=top + height){
+            links.forEach(link=>{
+                console.log("hey")
+                link.classList.remove("active-link")
+            })
+            let recuperationId=document.querySelector(`header ul li a[href*=${id}]`)
+            recuperationId.classList.add("active-link")
+        }
+    })
+}
+
+window.addEventListener("scroll", scrollActive )
