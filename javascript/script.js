@@ -80,9 +80,9 @@ const scrollActive=()=>{
         let top=section.offsetTop;
         let id=section.getAttribute("id");
         let scrolls=window.scrollY;
-        if(scrolls>=top + height){
+        if(scrolls>=top - 400 + height){
             links.forEach(link=>{
-                console.log("hey")
+             
                 link.classList.remove("active-link")
             })
             let recuperationId=document.querySelector(`header ul li a[href*=${id}]`)

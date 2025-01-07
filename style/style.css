@@ -443,7 +443,7 @@ line-height: 50px;
     }
     
 }
-@media screen and ( max-width:840px) {
+@media screen and ( max-width:950px) {
     header ul{
         display: flex;
         flex-direction: column;
@@ -453,7 +453,7 @@ line-height: 50px;
         text-align: center;
         width: 350px;
         padding: 20px;
-        height: 400px;
+        height: 460px;
         top: 12vh;
         background-color: var(--color1);
         transition: 0.8s ease-in-out;
