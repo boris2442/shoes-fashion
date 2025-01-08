@@ -443,7 +443,7 @@ line-height: 50px;
     }
     
 }
-@media screen and ( max-width:1960px) {
+@media screen and ( max-width:1060px) {
     header ul{
         display: flex;
         flex-direction: column;
