@@ -44,9 +44,15 @@ body::-webkit-scrollbar {
 
 
   .welcome-box .search{
-    border: 1px solid red;
+ 
+    background-color: var(--color1);
+    color:var(--color3);
     width: 340px;
     padding: 10px;
+    color:var(--color2);
     border-radius: 9999px;
     height: 40px;
+  }
+  .welcome-box .search::placeholder{
+    color:var(--color2);
   }
