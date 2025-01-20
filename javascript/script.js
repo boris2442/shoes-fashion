@@ -62,7 +62,7 @@ const titleh1=document.querySelector("h1")
 
 const app=new Typewriter(titleh1, {
     loop:true,
-    delay:200
+    delay:20
 })
 
 .typeString("style & confort")
