@@ -40,3 +40,13 @@ body::-webkit-scrollbar {
     background-color: #e0e0e0; 
   } 
    
+
+
+
+  .welcome-box .search{
+    border: 1px solid red;
+    width: 340px;
+    padding: 10px;
+    border-radius: 9999px;
+    height: 40px;
+  }

@@ -101,3 +101,14 @@ window.onload = function() {
   };
   
   
+  //recuperer l'element saisie ar l'utilisateur
+  //comparer avec ce qu'il ya dans le site web
+  //si il coincide, l'affiche
+  //si non, ne les affiche pas!
+
+
+  
+
+
+
+
