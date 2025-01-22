@@ -43,16 +43,18 @@ body::-webkit-scrollbar {
 
 
 
-  .welcome-box .search{
- 
+ .search{
+ position: sticky;
+ top: 15vh;
     background-color: var(--color1);
     color:var(--color3);
     width: 340px;
     padding: 10px;
+    z-index: 10;
     color:var(--color2);
     border-radius: 9999px;
     height: 40px;
   }
-  .welcome-box .search::placeholder{
+ .search::placeholder{
     color:var(--color2);
   }

@@ -1,3 +1,5 @@
+
+const sections=document.querySelectorAll("section");
 const header=document.querySelector("header");
 const links=document.querySelectorAll("header ul li a");
 
@@ -72,8 +74,6 @@ const app=new Typewriter(titleh1, {
 .start();
 
 
-const sections=document.querySelectorAll("section");
-
 const scrollActive=()=>{
     sections.forEach(section=>{
         let height=section.offsetHeight;
@@ -107,8 +107,22 @@ window.onload = function() {
   //si non, ne les affiche pas!
 
 
+  const search=document.querySelector(".search");
+
+
+
+search.addEventListener("input", (e)=>{
+const valueSearch=e.target.value.toLowerCase();
+const baliseMain=document.querySelector("main");
+sections.forEach((section)=>{
+    if(section.textContent.toLowerCase().includes(valueSearch)){
   
+        baliseMain.prepend(section)
+    }
+    
+});
 
 
+});
 
 
