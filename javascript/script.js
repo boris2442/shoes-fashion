@@ -110,7 +110,6 @@ window.onload = function() {
   const search=document.querySelector(".search");
 
 
-
 search.addEventListener("input", (e)=>{
 const valueSearch=e.target.value.toLowerCase();
 const baliseMain=document.querySelector("main");
