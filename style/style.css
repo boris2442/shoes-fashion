@@ -224,6 +224,7 @@ margin: 0 auto;
 .welcome-box img{
    
     transition: 1s ease-in-out;
+    object-fit: cover;
     border-radius: 4rem 0  4rem 0;
     animation:animation 1.9s linear infinite;
 }
