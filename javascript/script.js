@@ -125,10 +125,25 @@ sections.forEach((section)=>{
 });
 
 
+const images=document.querySelectorAll('img');
 let options={
     root:null,
-    rootMargin:"-100% 0",
+    rootMargin:"-100px 0px 0px 0px",
     threshold:0
+};
+
+
+function handleIntersection(entries){
+console.log(entries);
+entries.forEach(entry=>{
+    if(entry.isIntersecting){
+        entry.target.style.opacity=1
+    }
+})
 }
 
-
+const observer=new IntersectionObserver(handleIntersection, options)
+console.log(images)
+images.forEach(image=>{
+observer.observe(image)
+})
