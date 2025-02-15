@@ -131,7 +131,7 @@ let options={
 
 
 function handleIntersection(entries){
-console.log(entries)
+
 entries.forEach(entry=>{
     if(entry.isIntersecting){
         entry.target.style.opacity=1
