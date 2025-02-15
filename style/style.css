@@ -43,6 +43,12 @@ section{
     font-size: 1.3rem;
     border-radius: 7px;
 }
+#btn a{
+    color:var(--color2);
+}
+#btn a:hover{
+    color:var(--color1);
+}
 #btn:hover{
     background-color: var(--color2);
     color:var(--color1);
