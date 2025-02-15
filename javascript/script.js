@@ -125,3 +125,10 @@ sections.forEach((section)=>{
 });
 
 
+let options={
+    root:null,
+    rootMargin:"-100% 0",
+    threshold:0
+}
+
+
