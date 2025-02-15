@@ -358,7 +358,7 @@ border-radius: 7px;
 .arrivage-container .arrivage-box img{
     height: 300px;
     transition: 1s ease-in-out;
-width: 400px;
+max-width: 400px;
 }
 .arrivage-container .arrivage-box img:hover{
     transform: rotateY(180deg);
@@ -376,6 +376,14 @@ width: 400px;
 .arrivage-container .arrivage-box h4, .arrivage-container .arrivage-box h6{
     padding-left: 10px;
     
+}
+@media screen and (max-width:450px){
+    .arrivage-container .arrivage-box{
+        width: 90%;
+    }
+    .arrivage-box img{
+        width: 100%;
+    }
 }
 
 /* partie destinee a la newsletter */
