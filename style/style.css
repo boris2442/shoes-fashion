@@ -58,7 +58,7 @@ section{
     width: 100%;
     height: 100%;
   
-    background-color: rgba(0, 0, 0, 0.5); /* fond semi-transparent */
+    background-color: rgba(0, 0, 0, 0.5); 
     color: white;
     background-color: black;
     display: flex;
@@ -68,7 +68,7 @@ section{
     transition: 1s ease-in-out;
     font-size: clamp(15px, 4vw, 40px);
     font-weight: bold;
-    z-index: 9999; /* assure-toi qu'il se trouve au-dessus du contenu */
+    z-index: 9999; 
   }
   .lettre{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -207,7 +207,7 @@ header nav ul li a.active{
 
 
 #first-section{
-   /* min-height: 100vh; */
+
     justify-content: center;
     align-items: center;
 }

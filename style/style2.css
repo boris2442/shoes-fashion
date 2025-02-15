@@ -21,7 +21,7 @@
 }
 
 
-/* Pour les navigateurs WebKit (Chrome, Edge, Safari) */
+
 
 body::-webkit-scrollbar {
     width: 12px; 
@@ -63,4 +63,5 @@ body::-webkit-scrollbar {
 
   img{
     opacity: 0;
+    object-fit: cover;
   }

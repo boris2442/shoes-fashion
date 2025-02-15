@@ -101,10 +101,7 @@ window.onload = function() {
   };
   
   
-  //recuperer l'element saisie ar l'utilisateur
-  //comparer avec ce qu'il ya dans le site web
-  //si il coincide, l'affiche
-  //si non, ne les affiche pas!
+
 
 
   const search=document.querySelector(".search");
@@ -134,7 +131,7 @@ let options={
 
 
 function handleIntersection(entries){
-console.log(entries);
+console.log(entries)
 entries.forEach(entry=>{
     if(entry.isIntersecting){
         entry.target.style.opacity=1
@@ -143,7 +140,7 @@ entries.forEach(entry=>{
 }
 
 const observer=new IntersectionObserver(handleIntersection, options)
-console.log(images)
+
 images.forEach(image=>{
 observer.observe(image)
 })
